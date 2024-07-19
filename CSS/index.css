@@ -16,18 +16,18 @@ body{
     height: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #ee9e81;
+    background-color: #D5C7F9;
 }
 
 .logo {
     flex: 20%;
     margin-left: 10%;
-    text-align: center;
+    text-align: left;
 }
 
 .logo h1 {
     font-family: "Merriweather", serif;
-    color: #741203;
+    color: #1C1B9D;
     font-size: 30px;
 }
 
@@ -38,21 +38,21 @@ body{
 }
 
 .menu a {
-    color: #741203;
+    color: #1C1B9D;
     text-decoration: none;
     font-size: 18px;
     padding: 20px;
 }
 
 .menu a:hover {
-    color:#f1c533 ;
-    border-top: 3px solid #741203 
+    color:#F7C344 ;
+    border-top: 3px solid #1C1B9D#1C1B9D; 
 }
 
 #inscricao {
     padding: 10px 25px;
     border-radius: 5%;
-    background-color: #741203;
+    background-color: #1C1B9D;
     color: white;
     margin-right: 10%;
     margin-left: 5%
@@ -61,6 +61,130 @@ body{
 
 #inscricao:hover{
     background-color: #f1c533;
-    color: #741203;
+    color: #1C1B9D;
     border: none;
+}
+
+.header{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.headline{
+    margin-left: 10%;
+    flex: 40%;
+    /* border: 1px solid black; */
+}
+
+.headline h2 {
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.texto-menor {
+    letter-spacing: 10px;  
+    
+    color: #1C1B9D;
+    font-size: 20px;
+}
+
+.texto-maior{
+    font-size: 60px;
+    color: #F7C344; 
+}
+
+.headline p {
+    color: #1C1B9D;
+    text-align: left;
+}
+
+.saiba-mais{
+    display: inline-block;
+    background-color: #1C1B9D;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 16px;
+    border-radius: 5px;
+}
+
+.saiba-mais:hover{
+    background-color: #f1c533;
+    color: #1C1B9D;
+}
+
+
+.img-headline{
+    margin-right: 10%;
+    flex: 40%;
+    /* border: solid 1px black; */
+    text-align: center;
+}
+
+.img-headline img{
+    max-width: 90%;
+}
+
+section{
+    display: inline-block;
+    margin-top: 40px;
+    /* width: 90% ; */
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+    text-align: center;
+    
+}
+
+section h2{
+    font-size: 30px;
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+    color: #1C1B9D;
+    width: 100%;
+    margin: 0;
+}
+
+.servicos{
+    display: inline-block;
+    margin-top: 40px;
+}
+
+.card{
+    display:inline-block;
+    width: 30%;
+    padding: 20px;
+    margin: 1%;
+    border: 2px solid #1C1B9D;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.card img {
+    width: 20%;
+}
+
+.hide-text{
+    display: none;
+}
+
+.card:hover{
+    background-color: #D5C7F9;
+    padding: 40px;
+}
+
+.card:hover img{
+    display: none;
+}
+
+.card:hover .main-text{
+    display: none;
+}
+
+.card:hover .hide-text{
+    display: block;
 }
