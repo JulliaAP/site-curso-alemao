@@ -17,6 +17,8 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #D5C7F9;
+    width: 100%;
+    position: fixed;
 }
 
 .logo {
@@ -71,6 +73,7 @@ body{
     background-color: white;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
 }
 
 .headline{
@@ -187,4 +190,38 @@ section h2{
 
 .card:hover .hide-text{
     display: block;
+}
+
+footer{
+    margin-top: 100px;
+    height: 200px;
+    background-color:#1C1B9D ;
+    text-align: center;
+    border-top: 5px solid #f1c533     
+
+}
+
+.rodape{
+    padding: 20px;
+}
+
+.text-rodape{
+    font-family: "Merriweather", serif;
+    color:#D5C7F9;
+    font-size: 30px;
+}
+
+.rodape p{
+    color:#D5C7F9;;
+}
+
+.contato{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+    width: 150px;
+}
+
+.contato:hover{
+    width: 160px;
 }
